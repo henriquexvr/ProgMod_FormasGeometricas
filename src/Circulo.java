@@ -25,6 +25,7 @@
 
 public class Circulo extends FormaGeometrica{
     private double raio;
+    private static final double PI = Math.PI;
     
     /**
      * Construtor. O raio mínimo do círculo é 1.
@@ -41,7 +42,7 @@ public class Circulo extends FormaGeometrica{
      */
     @Override
     public double area(){
-        //TODO
+        return PI * Math.pow(raio, 2); 
     }
 
     /**
@@ -50,7 +51,7 @@ public class Circulo extends FormaGeometrica{
      */
     @Override
     public double perimetro(){
-        //TODO
+        return 2 * PI * raio;
     }
 
     /**

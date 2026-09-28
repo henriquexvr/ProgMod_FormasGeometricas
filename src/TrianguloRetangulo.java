@@ -40,7 +40,7 @@ public class TrianguloRetangulo extends PoligonoReto{
      */
     @Override
     public double area(){
-        //TODO
+        return (base * altura)/2;
     }
 
     /**
@@ -49,7 +49,7 @@ public class TrianguloRetangulo extends PoligonoReto{
      */
     @Override
     public double perimetro(){
-        //TODO
+        return (2*base) + altura; 
     }
 
     /**
