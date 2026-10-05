@@ -31,7 +31,7 @@ public class TrianguloRetangulo extends PoligonoReto{
      * @param cateto2 Cateto para o triângulo. Valor deve ser igual ou maior a 1, ou será corrigido para 1.
      */
     public TrianguloRetangulo(double cateto1, double cateto2){
-        //TODO
+        super("Triangulo Retangulo", cateto1, cateto2);
     }
 
     /**
